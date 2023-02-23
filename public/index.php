@@ -1,7 +1,7 @@
 <?php
 # Dependencies
 require_once "../config.php";# DB
-//require_once "../model/DOSSIER MODEL";# table post
+//require_once "../model/DOSSIER MODEL";# table post5
 //require_once "../model/dOSSIER MODEL";# table category
 
 # Connexion
@@ -25,3 +25,5 @@ if(false){
 
 # good practice
 mysqli_close($db);
+?>
+<h1>index</h1>
