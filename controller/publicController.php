@@ -19,6 +19,5 @@ if(isset($_GET["z"])){
     }else{
         include '../View/homepage.php';
     }
-    ?>
-    <h1>public controller</h1>
+
     
