@@ -52,10 +52,10 @@ SET time_zone = "+00:00";
 
 --
 
-DROP DATABASE IF EXISTS `basecrud`;
+DROP DATABASE IF EXISTS `portfolio`;
 
 CREATE DATABASE
-    IF NOT EXISTS `basecrud` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+    IF NOT EXISTS `portfolio` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 USE `portfolio` ;
 
@@ -73,7 +73,7 @@ CREATE TABLE
         `name` varchar(255) NOT NULL,
         `email_contact` varchar(255) NOT NULL,
         `message` varchar(3000) NOT NULL,
-        `create_time` varchar(45) NOT NULL
+        `create_time` timestamp NOT NULL
     ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
 
 -- --------------------------------------------------------
@@ -90,9 +90,9 @@ CREATE TABLE
     IF NOT EXISTS `lien` (
         `idlien` int(11) NOT NULL,
         `titre` varchar(45) NOT NULL,
-        `description` varchar(45) NOT NULL,
-        `image` varchar(45) NOT NULL,
-        `url` varchar(45) NOT NULL
+        `description` varchar(255) NOT NULL,
+        `image` varchar(100) NOT NULL,
+        `url` varchar(100) NOT NULL
     ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
 
 -- --------------------------------------------------------
@@ -112,7 +112,7 @@ CREATE TABLE
         `description` varchar(5000) NOT NULL,
         `image_path` varchar(500) NOT NULL,
         `url` varchar(300) NOT NULL,
-        `create_time` datetime NOT NULL
+        `create_time` timestamp NOT NULL
     ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
 
 -- --------------------------------------------------------
