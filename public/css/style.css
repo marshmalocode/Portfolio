@@ -1,0 +1,126 @@
+/* darkmode */
+
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    position: relative;
+    margin: 0 10px;
+    list-style: none;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: #ddd;
+  }
+  
+  .submenu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .submenu:hover ul {
+    display: block;
+  }
+  
+  .submenu ul li {
+    margin: 0;
+  }
+  
+  .submenu ul a {
+    padding: 10px;
+    color: #333;
+  }
+  
+  .submenu ul a:hover {
+    background-color: #ddd;
+  }
+  
+  
+  .dark-mode {
+    background-color: #1c1c1c;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+  .sun-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../asset/sun.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+  }
+  button{
+    border-radius: 40px;
+    margin-top: 1,5em;
+  }
+  .moon-icon {
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-image: url(../asset/moon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+  }
+  
+  .dark-mode .sun-icon {
+    display: none;
+  }
+  
+  .dark-mode .moon-icon {
+    display: inline-block;
+  }
+  
+  .on-off-switch {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .on-off-switch::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3px;
+    transition: all 0.2s;
+  }
+  
+  .dark-mode .on-off-switch {
+    background-color: #555;
+  }
+  
+  .dark-mode .on-off-switch::before {
+    left: calc(100% - 17px);
+  }
+  .contact-but{
+    border: 1px solid black;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #00b3ff, blue);
+    text-decoration-color: white;
+  }

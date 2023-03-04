@@ -1,7 +1,7 @@
 <?php
 # Dependencies
 require_once "../config.php"; # DB
-//require_once "../model/DOSSIER MODEL";# table post5
+require_once "../model/LinkModel.php";
 //require_once "../model/dOSSIER MODEL";# table category
 
 # Connexion
@@ -16,7 +16,6 @@ try {
 // connected controller
 if (false) {
     require_once "../controller/privateController.php";
-
     // public
 } else {
     require_once "../controller/publicController.php";
