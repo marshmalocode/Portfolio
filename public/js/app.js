@@ -1,3 +1,4 @@
+/* dark-Mode*/
 function toggleDarkMode() {
     var body = document.getElementsByTagName("body")[0];
     var button = document.getElementById("dark-mode-toggle");
@@ -16,3 +17,4 @@ function toggleDarkMode() {
     button.querySelector(".on-off-switch").classList.add("on");
     }
 }
+/* menu burger*/

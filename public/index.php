@@ -24,5 +24,3 @@ if (false) {
 
 # good practice
 mysqli_close($db);
-?>
-<h1>index</h1>
