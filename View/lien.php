@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/style.css">
+    <script src="../public/js/app.js" defer></script>
     <title><?= $titre ?></title>
 </head>
 
@@ -19,7 +20,6 @@
         <img src="<?= $item['image'] ?>" alt="">
         <p><?= $item['description'] ?></p>
         <a href="<?= $item['url'] ?>">lien</a>
-        <h1>titre</h1>
     <?php
     endforeach;
     ?>

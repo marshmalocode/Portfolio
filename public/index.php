@@ -2,6 +2,8 @@
 # Dependencies
 require_once "../config.php"; # DB
 require_once "../model/LinkModel.php";
+require_once "../model/ContactModel.php";
+require_once "../model/travauxModel.php";
 //require_once "../model/dOSSIER MODEL";# table category
 
 # Connexion

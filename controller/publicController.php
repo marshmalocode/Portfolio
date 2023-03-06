@@ -4,6 +4,7 @@ if (isset($_GET["z"])) {
     switch ($_GET["z"]) {
 
         case 'trav':
+            $travauxDB = DBtravaux($db);
             $titre = "Travaux";
             include "../View/travaux.php";
             break;
@@ -17,6 +18,7 @@ if (isset($_GET["z"])) {
             include "../View/lien.php";
             break;
         case 'contact':
+            $contactDB = DBcontact($db);
             $titre = "Contact";
             include "../View/contact.php";
             break;
