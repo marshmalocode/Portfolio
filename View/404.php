@@ -16,6 +16,9 @@
     include '../View/inc/menu.php';
     ?>
     <h1>thjyy404</h1>
+    <?php
+    include '../View/inc/footer.php';
+    ?>
 </body>
 
 </html>

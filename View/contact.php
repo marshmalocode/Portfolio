@@ -31,7 +31,9 @@
     }
     var_dump($DBcontact)
         ?>
-
+        <?php
+        include '../View/inc/footer.php';
+        ?>
 </body>
 
 </html>

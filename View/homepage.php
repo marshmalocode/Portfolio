@@ -15,6 +15,10 @@
     <?php
     include '../View/inc/menu.php';
     ?>
+
+    <?php
+    include '../View/inc/footer.php';
+    ?>
 </body>
 
 </html>

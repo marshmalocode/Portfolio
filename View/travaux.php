@@ -26,6 +26,9 @@
     <?php
     endforeach;
     ?>
+    <?php
+    include '../View/inc/footer.php';
+    ?>
 </body>
 
 </html>
