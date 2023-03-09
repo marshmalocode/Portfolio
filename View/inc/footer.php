@@ -6,9 +6,9 @@
         <nav class="footer-navigation">
             <ul class="footer-menu">
                 <li class="menu-item"><a href="#">CV</a></li>
-                <li class="menu-item"><a href="#">Travaux</a></li>
-                <li class="menu-item"><a href="#">Liens</a></li>
-                <li class="menu-item"><a href="#">Contact</a></li>
+                <li class="menu-item"><a href="?z=trav">Travaux</a></li>
+                <li class="menu-item"><a href="?z=contact">Contact</a></li>
+                <li class="menu-item"><a href="?z=connect">Connexion</a></li>
             </ul>
         </nav>
     </div>

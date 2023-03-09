@@ -7,7 +7,6 @@
             <li class="titreMenu"><a href="?z=tuto">tutoriel</a></li>
             <li class="titreMenu"><a href="?z=liens">Liens</a></li>
             <li class="titreMenu"><a href="?z=contact">Contact</a></li>
-            <li class="titreMenu"><a href="?z=connect">Connexion</a></li>
         </ul>
     </nav>
 </div>
