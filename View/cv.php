@@ -11,7 +11,7 @@
     <title><?= $titre ?></title>
 </head>
 
-<body>
+<body>test cv
     <?php
     include '../View/inc/menu.php';
     ?>
