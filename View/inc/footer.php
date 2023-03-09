@@ -17,10 +17,10 @@
         <span class="on-off-switch"></span>
     </button>
     <div class="footer-socials">
-        <a href="" class="icon-footer-socials"><img src="../public/asset/icon-face.png" alt=""></a>
-        <a href="" class="icon-footer-socials"><img src="../public/asset/icon-github.png" alt=""></a>
-        <a href="" class="icon-footer-socials"><img src="../public/asset/icon-linkedin.png" alt=""></a>
-        <a href="" class="icon-footer-socials"><img src="../public/asset/icon-telegram.png" alt=""></a>
-        <a href="" class="icon-footer-socials"><img src="../public/asset/icon-insta.png" alt=""></a>
+        <a href="" class="icon-footer-socials"><img src="/asset/icon-face.png" alt=""></a>
+        <a href="" class="icon-footer-socials"><img src="/asset/icon-github.png" alt=""></a>
+        <a href="" class="icon-footer-socials"><img src="/asset/icon-linkedin.png" alt=""></a>
+        <a href="" class="icon-footer-socials"><img src="/asset/icon-telegram.png" alt=""></a>
+        <a href="" class="icon-footer-socials"><img src="/asset/icon-insta.png" alt=""></a>
     </div>
 </footer>

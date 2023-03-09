@@ -1,9 +1,11 @@
 <?php
+session_start();
 # Dependencies
 require_once "../config.php"; # DB
 require_once "../model/LinkModel.php";
 require_once "../model/ContactModel.php";
 require_once "../model/travauxModel.php";
+require_once "../model/UserModel.php";
 //require_once "../model/dOSSIER MODEL";# table category
 
 # Connexion
@@ -16,7 +18,7 @@ try {
 # Router
 
 // connected controller
-if (false) {
+if (isset($_SESSION['monId'])&&$_SESSION['monId']==session_id()) {
     require_once "../controller/privateController.php";
     // public
 } else {

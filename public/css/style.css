@@ -15,7 +15,7 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(../public/asset/sun.png);
+  background-image: url(/asset/sun.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 5px;
@@ -27,7 +27,7 @@ button{
   display: none;
   width: 20px;
   height: 20px;
-  background-image: url(../public/asset/moon.png);
+  background-image: url(/asset/moon.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 5px;

@@ -1,7 +1,7 @@
 <?php
 
 // connexion d'un user
-function connectUser(mysqli $myDB, string $uname, string $upwd): string|bool {
+function connectUser(mysqli $myDB, string $uname, string $upwd){
 
     // traitement du username pour éviter un injection sql
     // lié à la connexion mysqli (jeux de caractères)
@@ -27,7 +27,7 @@ function connectUser(mysqli $myDB, string $uname, string $upwd): string|bool {
     $recup = mysqli_fetch_assoc($query);
 
     // vérification du mot de passe tapé = DB (crypté)
-    if (password_verify($upwd, $recup['password'])) {
+    if ($upwd = $recup['password']) {
 
         // création de session avec le contenu de notre requête SQL
         $_SESSION = $recup;
@@ -65,3 +65,4 @@ function disconnect(){
     # Destruction du fichier lié sur le serveur
     session_destroy();
 }
+?>

@@ -6,4 +6,4 @@ if(isset($_GET['disconnect'])){
     exit();
 }
 
-require_once "../view/privateView.php";
+require_once "../View/privateView.php";
