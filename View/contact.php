@@ -15,25 +15,9 @@
     <?php
     include '../View/inc/menu.php';
     ?>
-    <h1>Mon formulaire de contact</h1>
-    <p>Merci de me laisser un message</p>
     <?php
-    if (isset($erreur)) echo $erreur;
-    else {
+    include '../View/inc/footer.php';
     ?>
-        <form action="" method="post" name="contact">
-            <input name="lenom" placeholder="Votre nom" required><br>
-            <input name="lemail" placeholder="Votre mail" required><br>
-            <input name="lesujet" placeholder="Sujet" required><br>
-            <textarea name="lemessage" placeholder="Votre message" required></textarea><br>
-            <input type="submit" value="Envoi du mail">
-        <?php
-    }
-    var_dump($DBcontact)
-        ?>
-        <?php
-        include '../View/inc/footer.php';
-        ?>
 </body>
 
 </html>

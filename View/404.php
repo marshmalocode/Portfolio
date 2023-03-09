@@ -14,7 +14,7 @@
     <?php
     include '../View/inc/menu.php';
     ?>
-    <h1>thjyy404</h1>
+    <h1>404</h1>
     <?php
     include '../View/inc/footer.php';
     ?>
