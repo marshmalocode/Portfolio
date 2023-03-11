@@ -7,10 +7,10 @@ if (isset($_GET["z"]) && ($_GET["z"]) === "contact") {
 } elseif (isset($_GET["z"]) && ($_GET["z"]) === "tuto") {
     require_once "../View/tutoriel.php";
 } elseif (isset($_GET["z"]) && ($_GET["z"]) === "liens") {
-    $lienDB = DBlink($db);
+    $lienDB = DBlink($MysqliConnect);
     require_once "../View/lien.php";
 } elseif (isset($_GET["z"]) && ($_GET["z"]) === "trav") {
-    $travauxDB = DBtravaux($db);
+    $travauxDB = DBtravaux($MysqliConnect);
     require_once "../View/travaux.php";
 } elseif (isset($_GET["z"]) && ($_GET["z"]) === "contact") {
 
