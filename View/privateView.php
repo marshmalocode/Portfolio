@@ -8,7 +8,10 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link rel="icon" type="image/x-icon" href="asset/favicom.png" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/menu.css">
     <script src="js/app.js" defer></script>
     <title>Admin de notre site</title>
 </head>

@@ -13,7 +13,6 @@ if (isset($_GET["z"]) && ($_GET["z"]) === "contact") {
     $travauxDB = DBtravaux($MysqliConnect);
     require_once "../View/travaux.php";
 } elseif (isset($_GET["z"]) && ($_GET["z"]) === "contact") {
-
     require_once "../View/tutoriel.php";
 } elseif (isset($_GET["z"]) && ($_GET["z"]) === "connect") {
     require_once "../View/../View/publicView.php";
