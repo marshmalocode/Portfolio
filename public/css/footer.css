@@ -3,16 +3,15 @@
     display: block;
     background: #333;
     color: antiquewhite;
-    position: absolute;
-    position: absolute; 
+    clear:both;
     bottom: 0; 
     left: 0; 
-    right: 0
+    right: 0;
+    width: 100%;
 }
 .footer-socials{
     display: flex;
     justify-content: center;
-
 }
 .footer-socials-ind{
     height: 50px;

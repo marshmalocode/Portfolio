@@ -27,7 +27,7 @@
             <a href="" class="icon-footer-socials"><img class="icon-footer-socials-img" src="asset/icon-linkedin.png" alt=""></a>
         </div>
         <div class="footer-socials-ind">
-            <a href="" class="icon-footer-socials"><img class="icon-footer-socials-img" src="asset/icon-insta.png" alt=""></a>
+            <a href="" class="icon-footer-socials"><img class="icon-footer-socials-img" src="asset/icon-codewars.png" alt=""></a>
         </div>
         <div class="footer-socials-ind">
             <a href="" class="icon-footer-socials"><img class="icon-footer-socials-img" src="asset/icon-user.png" alt=""></a>
