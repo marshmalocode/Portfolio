@@ -19,7 +19,6 @@
     <?php
     include '../View/inc/menu.php';
     ?>
-    <?php var_dump($travauxDB) ?>
 
     <?php foreach ($travauxDB as $item) : ?>
         <h3><?= $item['titre'] ?></h3>

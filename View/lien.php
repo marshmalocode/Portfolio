@@ -19,10 +19,12 @@
     include '../View/inc/menu.php';
     ?>
     <?php foreach ($lienDB as $item) : ?>
+        <div class="content-lien">
         <h3><?= $item['titre'] ?></h3>
         <img src="<?= $item['image'] ?>" alt="">
         <p><?= $item['description'] ?></p>
         <a href="<?= $item['url'] ?>">lien</a>
+        </div>
     <?php
     endforeach;
     ?>

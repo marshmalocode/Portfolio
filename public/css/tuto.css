@@ -12,6 +12,7 @@ body {
   margin: 0;
 }
 section {
+  position: fixed;
   padding-top: 4rem;
   width: 50%;
   margin: auto;
