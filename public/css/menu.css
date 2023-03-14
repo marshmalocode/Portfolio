@@ -94,7 +94,7 @@ header a img{
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: none;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {

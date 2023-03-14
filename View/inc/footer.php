@@ -1,6 +1,6 @@
 <footer class="globalfooter">
     <div class="copyright">
-        <p class="copyright-p">2020 © c'est copy right</p>
+        <p class="copyright-p">2023 © c'est copy right</p>
     </div>
     <div class="footer-lien">
         <nav class="footer-navigation">
