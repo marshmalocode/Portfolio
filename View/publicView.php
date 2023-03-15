@@ -15,7 +15,24 @@
 </head>
 
 <body>
-
+    <?php
+    include '../View/inc/menu.php';
+    ?>
+    <div class="container">
+        <form name="connexion" action="" method="post">
+            <li class="dropdown-item">
+                <input name="username" placeholder="Votre nom d'utilisateur" required></input>
+            </li>
+            <li>
+                <input name="password" placeholder="Votre mot de passe" required></input>
+            </li>
+            <li>
+                <input type="submit" class="btn btn-primary"></input>
+        </form>
+    </div>
+    <?php
+    include '../View/inc/footer.php';
+    ?>
 </body>
 
 </html>
