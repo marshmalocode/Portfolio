@@ -18,6 +18,7 @@
     <?php
     include '../View/inc/menu.php';
     ?>
+    <div class="container">
     <div class="global-link">
         <?php foreach ($lienDB as $item) : ?>
             <div class="content-lien">
@@ -36,6 +37,7 @@
         endforeach;
         ?>
     </div>
+</div>
     <?php
     include '../View/inc/footer.php';
     ?>

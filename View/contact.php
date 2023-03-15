@@ -18,6 +18,7 @@
     <?php
     include '../View/inc/menu.php';
     ?>
+    <div class="container">
     <header class="">
         <!-- Post title-->
         <h1 class="">MailMVC</h1>
@@ -45,6 +46,7 @@
 
         <button type="submit" class="">Submit</button>
     </form>
+</div>
     <?php
     include '../View/inc/footer.php';
     ?>

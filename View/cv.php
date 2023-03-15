@@ -18,6 +18,9 @@
     <?php
     include '../View/inc/menu.php';
     ?>
+    <div class="container">
+        <h1>test</h1>
+    </div>
     <?php
     include '../View/inc/footer.php';
     ?>

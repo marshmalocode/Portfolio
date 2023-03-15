@@ -17,7 +17,9 @@
 <body>
     <?php
     include '../View/inc/menu.php';
-    ?> <section>
+    ?>
+    <div class="container">
+    <section>
         <h1>
             Tutoriel
         </h1>
@@ -122,6 +124,7 @@
                 sur diférents languages</p>
         </details>
     </section>
+</div>
     <?php
     include '../View/inc/footer.php';
     ?>

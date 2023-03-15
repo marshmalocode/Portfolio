@@ -19,6 +19,7 @@
     <?php
     include '../View/inc/menu.php';
     ?>
+    <div class="container">
     <?php foreach ($travauxDB as $item) : ?>
         <div class="card-work">
             <div class="title-p-work">
@@ -33,6 +34,7 @@
     <?php
     endforeach;
     ?>
+    </div>
     <?php
     include '../View/inc/footer.php';
     ?>
