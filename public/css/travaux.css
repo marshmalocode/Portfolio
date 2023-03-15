@@ -17,3 +17,6 @@ body, .container{
 .card-work{
     margin-top: 8em;
 }
+.img-work{
+    width: 25vh;
+}

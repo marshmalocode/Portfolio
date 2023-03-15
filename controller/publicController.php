@@ -2,12 +2,12 @@
 //controleur frontal
 if (isset($_GET["z"]) && ($_GET["z"]) === "contact") {
     // on veut envoyer un message
-if (isset($_POST['messagesmail'], $_POST['messagestext'])) {
-    $mail = filter_var(trim($_POST['messagesmail']), FILTER_VALIDATE_EMAIL);
-    $messageDB = htmlspecialchars(strip_tags(trim($_POST['messagestext'])), ENT_QUOTES);
-    $messageMail = strip_tags(trim($_POST['messagestext']));
+    if (isset($_POST['messagesmail'], $_POST['messagestext'])) {
+        $mail = filter_var(trim($_POST['messagesmail']), FILTER_VALIDATE_EMAIL);
+        $messageDB = htmlspecialchars(strip_tags(trim($_POST['messagestext'])), ENT_QUOTES);
+        $messageMail = strip_tags(trim($_POST['messagestext']));
 
-    if ($mail == false || empty($messageDB)) {
+        if ($mail == false || empty($messageDB)) {
         $message = "Mail et/ou message non valides, veuillez recommencer !";
     } else {
         $insert = insertMessages($MysqliConnect, $mail, $messageDB);
@@ -47,10 +47,8 @@ if (isset($_POST['messagesmail'], $_POST['messagestext'])) {
     require_once "../View/../View/publicView.php";
 } elseif (isset($_GET["z"]) && $_GET["z"] === "admin") {
     require_once "../View/privateView.php";
-} elseif (isset($_GET["z"]) && $_GET["z"] === "accueil") {
-    require_once "../View/homepage.php";
 } else {
-    require_once "../View/404.php";
+    require_once "../View/homepage.php";
 }
 
 

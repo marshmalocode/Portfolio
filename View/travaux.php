@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="asset/favicom.png" />
-    <link rel="stylesheet" href="css/travaux.css.css">
+    <link rel="stylesheet" href="css/travaux.css">
     <link rel="stylesheet" href="css/darkmode.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/menu.css">
