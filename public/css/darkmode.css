@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
   margin-right: 5px;
 }
-button{
+.dark-mode-toggle{
   border-radius: 40px;
 }
 .moon-icon {

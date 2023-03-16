@@ -14,3 +14,6 @@ html , body{
 body, .container{
     flex-grow: 1;
 }
+.container{
+    display: flex;
+}
