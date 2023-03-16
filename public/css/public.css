@@ -30,10 +30,11 @@ body, .container{
     border-radius: 20px;
     padding: 40px;
     box-sizing: border-box;
-    background: #ecf0f3;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
     box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
     margin: 30px;
     justify-content: center;
+    overflow: hidden;
 }
 
 
@@ -51,8 +52,10 @@ body, .container{
     margin-top: 10px;
     font-weight: 900;
     font-size: 1.8rem;
-    color: #1DA1F2;
     letter-spacing: 1px;
+}
+.p-admin{
+
 }
 .dropdown-item{
     list-style: none;

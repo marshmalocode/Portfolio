@@ -23,17 +23,19 @@
             <div class="brand-logo">
                 <img src="asset/icon-user.png" alt="" class="logo-user">
             </div>
-            <br>
             <div class="brand-title">CONNEXION</div>
             <form name="connexion" action="" method="post">
                 <ul>
                     <li class="dropdown-item">
-                        <label class="label-item">EMAIL</label><br>
+                        <label class="label-item">
+                            <p class="p-admin">IDENTIFIANT</p>
+                        </label><br>
                         <input class="script-item" name="username" placeholder="example@test.com" required></input>
                     </li>
-                    <br>
                     <li class="dropdown-item">
-                        <label class="label-item">PASSWORD</label><br>
+                        <label class="label-item">
+                            <p class="p-admin">PASSWORD</p>
+                        </label><br>
                         <input name="password" placeholder="Min 8 charaters long" required></input>
                     </li>
                     <li class="dropdown-item">
