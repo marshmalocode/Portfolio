@@ -25,10 +25,10 @@ body, .container{
 }
 .admin{
     position: relative;
-    width: 350px;
-    height: 500px;
+    max-width: 350px;
+    max-height: 500px;
     border-radius: 20px;
-    padding: 40px;
+    padding: 30px;
     box-sizing: border-box;
     background: linear-gradient(#e66465, #1DA1F2);
     box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
