@@ -30,15 +30,12 @@ body, .container{
     border-radius: 20px;
     padding: 40px;
     box-sizing: border-box;
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
+    background: linear-gradient(#e66465, #1DA1F2);
     box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
     margin: 30px;
     justify-content: center;
     overflow: hidden;
 }
-
-
-
 
 .logo-user{
     height: 100px;
@@ -53,9 +50,6 @@ body, .container{
     font-weight: 900;
     font-size: 1.8rem;
     letter-spacing: 1px;
-}
-.p-admin{
-
 }
 .dropdown-item{
     list-style: none;
