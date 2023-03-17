@@ -20,10 +20,6 @@
     ?>
     <div class="container">
     <header class="">
-        <!-- Post title-->
-        <h1 class="">MailMVC</h1>
-        <hr>
-
         <h3>Envoyez moi un message : </h3>
     </header>
 

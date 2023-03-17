@@ -59,6 +59,9 @@ header a img{
   position: relative;
   user-select: none;
 }
+label.menu-icon {
+  max-width: 59px;
+}
 
 .header .menu-icon .navicon {
   background: #333;
