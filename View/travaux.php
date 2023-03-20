@@ -20,20 +20,20 @@
     include '../View/inc/menu.php';
     ?>
     <div class="container">
-    <?php foreach ($travauxDB as $item) : ?>
-        <div class="card-work">
-            <div class="title-p-work">
-                <h3><?= $item['titre'] ?></h3>
-                <p><?= $item['description'] ?></p>
-            </div>
-            <div class="button-work">
-                <a href="<?= $item['url'] ?>" class="a-work"><img src="<?= $item['image_path'] ?>" alt="" class="img-work"></a>
-            </div>
+        <?php foreach ($travauxDB as $item) : ?>
+            <div class="card-work">
+                <div class="title-p-work">
+                    <h3><?= $item['titre'] ?></h3>
+                    <p><?= $item['description'] ?></p>
+                </div>
+                <div class="button-work">
+                    <a href="<?= $item['url'] ?>" class="a-work" target="_blank"><img src="<?= $item['image_path'] ?>" alt="" class="img-work"></a>
+                </div>
 
-        </div>
-    <?php
-    endforeach;
-    ?>
+            </div>
+        <?php
+        endforeach;
+        ?>
     </div>
     <?php
     include '../View/inc/footer.php';

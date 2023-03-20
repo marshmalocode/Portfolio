@@ -19,25 +19,25 @@
     include '../View/inc/menu.php';
     ?>
     <div class="container">
-    <div class="global-link">
-        <?php foreach ($lienDB as $item) : ?>
-            <div class="content-lien">
-                <div class="title-link">
-                    <h3><?= $item['titre'] ?></h3>
+        <div class="global-link">
+            <?php foreach ($lienDB as $item) : ?>
+                <div class="content-lien">
+                    <div class="title-link">
+                        <h3><?= $item['titre'] ?></h3>
+                    </div>
+                    <div class="content-link">
+                        <img src="<?= $item['image'] ?>" alt="" class="img-link">
+                        <p class="p-link"><?= $item['description'] ?></p>
+                    </div>
+                    <div class="button-link">
+                        <a href="<?= $item['url'] ?>" class="a-link" target="_blank">Découvrir</a>
+                    </div>
                 </div>
-                <div class="content-link">
-                    <img src="<?= $item['image'] ?>" alt="" class="img-link">
-                    <p class="p-link"><?= $item['description'] ?></p>
-                </div>
-                <div class="button-link">
-                    <a href="<?= $item['url'] ?>" class="a-link">Découvrir</a>
-                </div>
-            </div>
-        <?php
-        endforeach;
-        ?>
+            <?php
+            endforeach;
+            ?>
+        </div>
     </div>
-</div>
     <?php
     include '../View/inc/footer.php';
     ?>

@@ -19,34 +19,34 @@
     include '../View/inc/menu.php';
     ?>
     <div class="container">
-    <header class="">
-        <!-- Post title-->
-        <h1 class="">MailMVC</h1>
-        <hr>
+        <header class="">
+            <!-- Post title-->
+            <h1 class="">MailMVC</h1>
+            <hr>
 
-        <h3>Envoyez moi un message : </h3>
-    </header>
+            <h3>Envoyez moi un message : </h3>
+        </header>
 
-    <form method="POST" action="" name="messages">
-        <div>
-            <?php
-            if (isset($message)) :
-            ?>
-                <button type="button" class=""><?= $message ?></button><br>
-            <?php
-            endif;
-            ?>
-            <label for="exampleFormControlInput1" class="form-label">Votre adresse mail</label>
-            <input name="messagesmail" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Votre commentaire</label>
-            <textarea name="messagestext" class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
-        </div>
+        <form method="POST" action="" name="messages">
+            <div>
+                <?php
+                if (isset($message)) :
+                ?>
+                    <button type="button" class=""><?= $message ?></button><br>
+                <?php
+                endif;
+                ?>
+                <label for="exampleFormControlInput1" class="form-label">Votre adresse mail</label>
+                <input name="messagesmail" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Votre commentaire</label>
+                <textarea name="messagestext" class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+            </div>
 
-        <button type="submit" class="">Submit</button>
-    </form>
-</div>
+            <button type="submit" class="">Submit</button>
+        </form>
+    </div>
     <?php
     include '../View/inc/footer.php';
     ?>
